@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../assets/styles/_about.scss'
 import { Link } from 'react-router-dom'
 
 const About = () => (

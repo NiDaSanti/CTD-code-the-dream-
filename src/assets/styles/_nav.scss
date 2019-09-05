@@ -1,45 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
+
 .navigation {
-    width: 100%;
-    background: $blue;
-    position: relative;
-    padding: .5em;
-
-    .logo-wrapper {
-        width: 150px;
-        top: 10px;
-        left: 10px;
-        position: relative;
-    }
-
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: relative;
-        top: -20px;
-        right: 10px;
-    }
-    li {
-        margin: 0 .5em
-    }
-
-    a {
-        color: white;
-    }
+    display: grid;     
+    background-color:#001f3f;
+    box-shadow: 2px, 10px, black;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px #d8dc47 inset;
+         //font-family: 'Capriola', sans-serif;
 }
 
-.nav-content {
-    max-width: $maxWidth;
-    margin: 0 auto;
+.navigation img {
+    margin-left: 3em;
+    margin-top: 20px;
+}
+
+.nav-content ul {
+    list-style: none;
+    margin-top: -110px;
+    margin-right: 75px;
+    font-size: 20px;
+    margin-left: 22em;
+}
+
+.nav-content ul li {
+    //display: block;
+    position: relative;
+    //float: right;
+    color: #D0D355;
+}
+
+/*ul li {
+    margin-left: 10em;
+}*/
+
+.nav-content li {
+    font-family: 'Capriola', sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-content li a {
+    text-decoration: none;
+    color: #d8dc47;
+}
+
+.dashboard-content p {
+    font-family: 'Cuprum', sans-serif;
+    margin-left: 5em;
+    width: 75%;
+    font-size: 25px;
+    margin-top: 6em;
+    //background-color: #759AE3;  
+    padding: 1em; 
+    border-radius: 4px; // I need to learn how to fix.
+}
+.cta-wrapper a {
+    text-decoration: none;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 6em;
 }
 
 .footer {
-    background: $orange;
-    color: white;
-    height: 50px;
-    margin-top: auto;
+    background-color: #001f3f;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px #d8dc47 inset;
 }
 
 .footer-content {
-    margin-top:  15px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
 }
