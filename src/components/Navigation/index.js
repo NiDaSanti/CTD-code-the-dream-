@@ -23,7 +23,7 @@ const Navigation = () => (
             <Link to={ROUTES.CALCULATOR}>Calculator</Link>
           </li>
           <li>
-            {/*<Link to={ROUTES.TICTACTOE}>Tic-Tac-Toe</Link>*/}
+            <Link to={ROUTES.TICTACTOE}>Tic-Tac-Toe</Link>
           </li>
         </ul>
       </div>

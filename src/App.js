@@ -9,6 +9,7 @@ import * as ROUTES from "./Constants/routes.js";
 import About from "./Containers/About";
 import Resume from './Containers/Resume';
 import Calculator from './Containers/CalculatorPage';
+import TicTacToe from './Containers/TicTacToePage';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Route exact path={ROUTES.ABOUT} component={About} />
             <Route exact path={ROUTES.RESUME} component={Resume} />
             <Route exact path={ROUTES.CALCULATOR} component={Calculator} />
-            
+            <Route exact path={ROUTES.TICTACTOE} component={TicTacToe} />
           </Switch>
           <Footer />
         </Router>
