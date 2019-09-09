@@ -2,53 +2,51 @@
 /*font-family: 'Press Start 2P', cursive;*/
 
 .game {
-    height: 30em;
-    background: #fffc00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 130px;
+    border-radius: 25px;
 }
 
-.nav-content {
-    font-family: 'Press Start 2P', cursive;
+.game-board {
+    //background-image: url("../images/tic-tac-toe-game-on-wooden-background-J0KM0P.jpg");
+    margin: auto;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 25px;
 }
-
-/*.game-board {
-    background-color: red;
-}*/
 
 .square {
     width: 50px;
     height: 50px;
-    background-color: #141E30;  /* fallback for old browsers */
-    background-color: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background-color: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 30px;
-}
-
-.board-row {
-    margin-left: 1em;
 }
 
 .game-info {
-    font-size: 15px;
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Press Start 2P', cursive;
-    margin-left: 2em;
-    margin-top: 2em;
-    padding-top: 17px;
-    border: solid;
-    width: 25%;
-    padding-left: 17px;
+    color: #f85032;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to top, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to top, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-shadow: 3px 3px 3px black;
+    padding-left: 1em;
+    padding-top: 1em;
+    border-radius: 25px;
+    box-shadow: 5px 5px 12px gray;
 }
 
 button {
-    background: -webkit-linear-gradient(to bottom, #414345, #232526);
-    background: linear-gradient(to bottom, #414345, #232526);  
-    border-radius: 19px;
-    height: 4em;
-    width: 15em;
-    color: #ffffff;
+    border-radius: 18px;
+    width: 14em;
+    height: 3em;
     font-family: 'Press Start 2P', cursive;
-    font-size: 8px;
+    text-shadow: 1px 1px 1px #e73827;
 
 }
+
 
